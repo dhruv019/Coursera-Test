@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    border: 2px solid black;
+	background-color: rgb(85, 164, 152);
+}
+
+.navbar-heading{
+  font-size: 3rem;
+  color: white;
+  margin-left: 0;
+}
+
+.navbar-heading:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-heading{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #35adb4;
+  font-size: 5rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.food_item_heading{
+	padding: 0;
+	margin: 8px 0;
+	width: 100%;
+	background-color: rgb(74, 192, 192);
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.food_item_heading:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+    font-size: 2rem;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-content{
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
